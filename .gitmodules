@@ -1,0 +1,3 @@
+[submodule "public/user/themes/antimatter"]
+	path = public/user/themes/antimatter
+	url = https://github.com/getgrav/grav-theme-antimatter
