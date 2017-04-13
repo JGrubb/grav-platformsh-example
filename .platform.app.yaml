@@ -17,6 +17,12 @@ mounts:
   "public/user/accounts": "shared:files/accounts"
   "public/user/data": "shared:files/data"
   "public/user/pages": "shared:files/pages"
+  "public/assets": "shared:files/assets"
+  "public/backup": "shared:files/backup"
+  "public/cache/doctrine": "shared:files/cache_doctrine"
+  "public/images": "shared:files/images"
+  "public/logs": "shared:files/logs"
+  "pub/tmp": "shared:files/tmp"
 
 hooks:
   build: |
