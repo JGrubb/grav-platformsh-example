@@ -12,4 +12,12 @@ web:
           allow: true
         '^/robots\.txt$':
           allow: true
-      
+
+mounts:
+  "public/user/accounts": "shared:files/accounts"
+  "public/user/data": "shared:files/data"
+  "public/user/pages": "shared:files/pages"
+
+hooks:
+  build: |
+    cd public && composer install
