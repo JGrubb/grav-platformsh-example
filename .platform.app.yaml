@@ -1,0 +1,15 @@
+name: grav
+type: php:7.0
+disk: 2048
+web:
+  locations:
+    '/':
+      root: 'public'
+      passthru: '/index.php'
+      allow: false
+      rules:
+        '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf)$':
+          allow: true
+        '^/robots\.txt$':
+          allow: true
+      
