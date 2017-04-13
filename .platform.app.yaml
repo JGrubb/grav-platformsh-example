@@ -20,6 +20,7 @@ mounts:
   "public/assets": "shared:files/assets"
   "public/backup": "shared:files/backup"
   "public/cache/doctrine": "shared:files/cache_doctrine"
+  "public/cache/compiled": "shared:files/cache_compiled"
   "public/images": "shared:files/images"
   "public/logs": "shared:files/logs"
   "pub/tmp": "shared:files/tmp"
