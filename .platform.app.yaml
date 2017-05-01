@@ -16,6 +16,7 @@ web:
 mounts:
   "public/user/accounts": "shared:files/accounts"
   "public/user/data": "shared:files/data"
+  "public/user/config": "shared:files/config"
   "public/assets": "shared:files/assets"
   "public/backup": "shared:files/backup"
   "public/cache/doctrine": "shared:files/cache_doctrine"
