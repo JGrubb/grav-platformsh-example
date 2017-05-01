@@ -22,6 +22,7 @@ mounts:
   "public/backup": "shared:files/backup"
   "public/cache/doctrine": "shared:files/cache_doctrine"
   "public/cache/compiled": "shared:files/cache_compiled"
+  "public/cache/twig": "shared:files/twig"
   "public/images": "shared:files/images"
   "public/logs": "shared:files/logs"
   "public/tmp": "shared:files/tmp"
