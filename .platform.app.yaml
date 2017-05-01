@@ -24,7 +24,7 @@ mounts:
   "public/cache/compiled": "shared:files/cache_compiled"
   "public/images": "shared:files/images"
   "public/logs": "shared:files/logs"
-  "pub/tmp": "shared:files/tmp"
+  "public/tmp": "shared:files/tmp"
 
 hooks:
   build: |
