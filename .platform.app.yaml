@@ -20,13 +20,12 @@ mounts:
   "public/user/pages": "shared:files/pages"
   "public/assets": "shared:files/assets"
   "public/backup": "shared:files/backup"
-  "public/cache/doctrine": "shared:files/cache_doctrine"
-  "public/cache/compiled": "shared:files/cache_compiled"
-  "public/cache/twig": "shared:files/twig"
+  "public/cache": shared:files/cache
   "public/images": "shared:files/images"
   "public/logs": "shared:files/logs"
   "public/tmp": "shared:files/tmp"
 
 hooks:
   build: |
+    mkdir -p public/cache/compiled public/cache/doctrine public/cache/gpm
     cd public && composer install
